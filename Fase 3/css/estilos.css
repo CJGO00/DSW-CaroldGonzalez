@@ -7,12 +7,13 @@ header{
     color: rgb(122, 132, 141);   
 }
 section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    display: flex;
+    flex-direction: row;  
 }
 article{
     background-color: darkgrey; 
-    grid-column: 1/4;
+    display: block;
+    block-size: auto;
 }
 aside{
     background-color: darkkhaki; 
@@ -62,4 +63,8 @@ footer{
 }
 .menu li ul li ul{
     right: 140px;
+}
+article>ul{
+    display: flex;
+    flex-direction: row;
 }

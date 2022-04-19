@@ -47,9 +47,11 @@ header{
 }
 article{
     background-color: darkgrey; 
-    display: flex;
-    flex-direction: row;
-}aside{
+    display: block;
+    block-size: auto;
+
+}
+aside{
     background-color: darkkhaki; 
     padding: 30px;
     grid-column: 4/5;
@@ -60,7 +62,6 @@ footer{
     padding: 10px;
 }
 section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: block;
+    block-size: auto;
 }
