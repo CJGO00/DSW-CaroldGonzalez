@@ -6,24 +6,6 @@ header{
     padding: 30px;
     color: rgb(122, 132, 141);   
 }
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-}
-article{
-    background-color: darkgrey; 
-    grid-column: 1/4;
-}
-aside{
-    background-color: darkkhaki; 
-    padding: 30px;
-    grid-column: 4/5;
-}
-footer{
-    background-color: darkgrey;
-    color: beige;
-    padding: 10px;
-}
 .menu{
     padding: 0px 20px;
     text-align: center;
@@ -62,4 +44,23 @@ footer{
 }
 .menu li ul li ul{
     right: 140px;
+}
+article{
+    background-color: darkgrey; 
+    display: flex;
+    flex-direction: row;
+}aside{
+    background-color: darkkhaki; 
+    padding: 30px;
+    grid-column: 4/5;
+}
+footer{
+    background-color: darkgrey;
+    color: beige;
+    padding: 10px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
