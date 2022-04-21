@@ -47,9 +47,7 @@ header{
 }
 article{
     background-color: darkgrey; 
-    display: block;
-    block-size: auto;
-
+    grid-column: 1/4;
 }
 aside{
     background-color: darkkhaki; 
